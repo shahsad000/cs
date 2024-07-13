@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrimeScene</title>
+    <style>
+        body {
+            background-image: url('maxim-hopman-PEJHULxUHZs-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            --navbar-height: 100px;
+            position: fixed;
+            height: var(--navbar-height);
+            background-color: #f50404;
+            left: 0;
+            right: 0;
+            top: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+            padding: 10px; /* Padding added */
+            border: 2px solid #b00000; /* Border added */
+            margin: 0; /* Margin set to 0 to avoid any additional space */
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        li {
+            margin-right: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px; 
+            border: 2px solid #ffffff; 
+            border-radius: 5px;
+            margin: 5px;
+        }
+        h4 {
+            margin: 0; 
+            padding: 10px; 
+            border: 2px solid #ffffff; 
+            border-radius: 5px;
+            color: white;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            padding: 180px 20px 20px 20px; /* Increased top padding */
+        }
+        .article {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .article img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .article h2 {
+            margin-top: 0;
+        }
+        .article p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><h4>Crime Scene</h4></li>
+            <li><a href="complaint form.html">File a Complaint</a></li>
+            <li><a href="contact.html">Contact Us</a></li> <!-- New link added here -->
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="article">
+            <h2>News Today</h2>
+            <img src="C:\Users\shahs\OneDrive\Desktop\cap782\uza0ot19.jpg.png" alt="Article Image 1">
+            <p><h1>Suitcases containing suspected human remains found on iconic U.K. bridge. </h1><br><br><br> </p>
+        </div>
+        <div class="article">
+            <h2>Article 2</h2>
+            <img src="C:\Users\shahs\OneDrive\Desktop\cap782\9v64qqqj.png" alt="Article Image 2">
+            <p><h1>Man detained after BBC commentator's wife, 2 daughters killed in crossbow attack in U.K.</h1></p>
+        </div>
+        <div class="article">
+            <h2>Article 3</h2>
+            <img src="C:\Users\shahs\OneDrive\Desktop\cap782\wo9yg5oc.png" alt="Article Image 3">
+            <p><h1>U.K. to consider introducing stricter crossbow laws after murders of woman and 2 daughters near London</h1><br><br><br></p>
+        </div>
+        <div class="article">
+            <h2>Article 4</h2>
+            <img src="C:\Users\shahs\OneDrive\Desktop\cap782\k72lew2u.png" alt="Article Image 4">
+            <p><h1>Hawaii airport evacuated after grenades found in man's carry-on luggage</h1></p>
+        </div>
+    </div>
+</body>
+</html>
